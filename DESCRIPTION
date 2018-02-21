@@ -1,0 +1,13 @@
+Package: caretTuneGrid
+Type: Package
+Title: Inserts Tune Grid
+Version: 0.1.0
+Authors@R: person("Milos", "Vilotic", email = "milos.vilotic@gmail.com",
+                  role = c("aut", "cre"))
+Maintainer: Milos Vilotic <milos.vilotic@gmail.com>
+Description: Inserts Tune Grid
+Imports:
+    rstudioapi
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
