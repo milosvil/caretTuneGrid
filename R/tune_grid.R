@@ -29,7 +29,7 @@ tune_grid <- function() {
     return(tGrid)
   }
 
-  c7_data <- readRDS("inst/tune_param_data.RDS")
+  load("R/tune_param.rda")
 
   get_doc <- rstudioapi::getActiveDocumentContext()
   method <- get_doc$selection[[1]]$text
