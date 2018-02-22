@@ -29,8 +29,6 @@ tune_grid <- function() {
     return(tGrid)
   }
 
-  load("R/tune_param.rda")
-
   get_doc <- rstudioapi::getActiveDocumentContext()
   method <- get_doc$selection[[1]]$text
 
